@@ -1,4 +1,4 @@
-# agentaos-ai
+# AgentaOS
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,135 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agentaos-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agentaos.ai/
+AgentaOS provides borderless billing and payment processing for freelancers, agencies, and SaaS companies in the AI era. It acts as the official seller on every transaction, handling tax, invoices, and chargebacks across 190+ countries, without requiring the seller to have a registered company. Built by Aristokrates OÜ in Estonia, the platform offers flexible pricing, payout calculators, and compliance tools, aiming to simplify global commerce for AI-driven businesses.
+
+**Areas:** Payments · Billing · SaaS · Freelancers · AI
+
+## AgentaOS on APIs.io
+
+Everything profiled for AgentaOS is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentaos-ai/](https://apis.io/providers/agentaos-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [AgentaOS Bank Accounts API](https://apis.io/apis/agentaos-ai/agentaos-ai-bank-accounts-api/) — Where payouts go: the bank accounts of a business, as thin references (holder, last four digits, the name-check result), never the account number. For a…
+- [AgentaOS Businesses API](https://apis.io/apis/agentaos-ai/agentaos-ai-businesses-api/) — For platforms: the businesses you manage, a client's business or another app of your own company. To act as one of them on any other endpoint, send its id…
+- [AgentaOS Checkouts API](https://apis.io/apis/agentaos-ai/agentaos-ai-checkouts-api/) — One attempt to collect one payment, standalone or built from a payment link. Wire path is `/gateway/sessions`; the SDK and CLI call this resource "checkout".
+- [AgentaOS Customers API](https://apis.io/apis/agentaos-ai/agentaos-ai-customers-api/) — Read-only surface: everyone who has paid you or been sent an invoice.
+- [AgentaOS Discount Codes API](https://apis.io/apis/agentaos-ai/agentaos-ai-discount-codes-api/) — The Discount Codes API from AgentaOS — 3 operation(s) for discount codes.
+- [AgentaOS Invoices API](https://apis.io/apis/agentaos-ai/agentaos-ai-invoices-api/) — Every checkout issues an invoice. List, retrieve, void, export, and download PDFs/receipts.
+- [AgentaOS Payment Links API](https://apis.io/apis/agentaos-ai/agentaos-ai-payment-links-api/) — Reusable, shareable payment products: a fixed amount and description behind one URL.
+- [AgentaOS Subscriptions API](https://apis.io/apis/agentaos-ai/agentaos-ai-subscriptions-api/) — Merchant-side read and management surface for recurring plans. Created automatically when a buyer pays a `type: subscription` payment link.
+- [AgentaOS Transactions API](https://apis.io/apis/agentaos-ai/agentaos-ai-transactions-api/) — The unified activity feed: every inbound payment and outbound send, across every rail, in one list.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Agentaos Ai Webhooks](https://apis.io/asyncapis/agentaos-ai/agentaos-ai-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Agentaos Ai Agentic Access](https://apis.io/agentic-access/agentaos-ai/agentaos-ai-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agentaos Ai Context](https://apis.io/jsonld/agentaos-ai/agentaos-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AgentaOS API Rules](https://apis.io/rules/agentaos-ai/agentaos-ai-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentaos Ai Authentication](https://apis.io/security/agentaos-ai/agentaos-ai-authentication/)
+- [Agentaos Ai Domain Security](https://apis.io/security/agentaos-ai/agentaos-ai-domain-security/)
+- [Agentaos Ai Trust Center](https://apis.io/security/agentaos-ai/agentaos-ai-trust-center/)
+- [Agentaos Ai Vulnerability Disclosure](https://apis.io/security/agentaos-ai/agentaos-ai-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Agentaos Ai Plans Pricing](https://apis.io/plans/agentaos-ai/agentaos-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agentaos.ai/)
+- [Documentation](https://docs.agentaos.ai/)
+- [Getting started](https://agentaos.ai/about)
+- [API reference](https://docs.agentaos.ai/llms.txt)
+- [Pricing](https://agentaos.ai/pricing)
+- [Changelog](https://docs.agentaos.ai/changelog/overview)
+- [Security](https://agentaos.ai/security)
+- [Compliance](https://agentaos.ai/security)
+- [Terms of service](https://agentaos.ai/terms)
+- [Privacy policy](https://agentaos.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 62.2** — strong · rubric 0.25.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 65.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 34.2 |
+| Developer ergonomics | 46.9 |
+| Access clarity | 75.8 |
+
+**Agent readiness 69.9** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 30.0** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentaos-ai/](https://apis.io/providers/agentaos-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AgentaOS: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentaos-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
