@@ -66,7 +66,7 @@
 
 AgentaOS provides borderless billing and payment processing for freelancers, agencies, and SaaS companies in the AI era. It acts as the official seller on every transaction, handling tax, invoices, and chargebacks across 190+ countries, without requiring the seller to have a registered company. Built by Aristokrates OÜ in Estonia, the platform offers flexible pricing, payout calculators, and compliance tools, aiming to simplify global commerce for AI-driven businesses.
 
-**Areas:** Payments · Billing · SaaS · Freelancers · AI
+**Areas:** Payments · Billing · Software-as-a-Service · Freelancers · Artificial Intelligence
 
 ## AgentaOS on APIs.io
 
@@ -98,7 +98,38 @@ Event-driven and webhook contracts.
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agentaos Ai Agentic Access](https://apis.io/agentic-access/agentaos-ai/agentaos-ai-agentic-access/)
+- [AgentaOS Agentic Access](https://apis.io/agentic-access/agentaos-ai/agentaos-ai-agentic-access/)
+
+#### JSON Schema (35)
+
+The data models the API reads and writes.
+
+- [BankAccount](https://apis.io/schemas/agentaos-ai/agentaos-ai-bank-account/)
+- [BankAccountRequirements](https://apis.io/schemas/agentaos-ai/agentaos-ai-bank-account-requirements/)
+- [Business](https://apis.io/schemas/agentaos-ai/agentaos-ai-business/)
+- [BusinessCreateRequest](https://apis.io/schemas/agentaos-ai/agentaos-ai-business-create-request/)
+- [BusinessInvitation](https://apis.io/schemas/agentaos-ai/agentaos-ai-business-invitation/)
+- [Checkout](https://apis.io/schemas/agentaos-ai/agentaos-ai-checkout/)
+- [CheckoutCreateRequest](https://apis.io/schemas/agentaos-ai/agentaos-ai-checkout-create-request/)
+- [CheckoutDetail](https://apis.io/schemas/agentaos-ai/agentaos-ai-checkout-detail/)
+- [CheckoutListResponse](https://apis.io/schemas/agentaos-ai/agentaos-ai-checkout-list-response/)
+- [CreateBankAccountParams](https://apis.io/schemas/agentaos-ai/agentaos-ai-create-bank-account-params/)
+- [CreateDiscountCodeRequest](https://apis.io/schemas/agentaos-ai/agentaos-ai-create-discount-code-request/)
+- [CreatedBusiness](https://apis.io/schemas/agentaos-ai/agentaos-ai-created-business/)
+- [CustomerListResponse](https://apis.io/schemas/agentaos-ai/agentaos-ai-customer-list-response/)
+- [DiscountCode](https://apis.io/schemas/agentaos-ai/agentaos-ai-discount-code/)
+- [DiscountCodeDetail](https://apis.io/schemas/agentaos-ai/agentaos-ai-discount-code-detail/)
+- [DiscountCodeListResponse](https://apis.io/schemas/agentaos-ai/agentaos-ai-discount-code-list-response/)
+- [GrantCreditRequest](https://apis.io/schemas/agentaos-ai/agentaos-ai-grant-credit-request/)
+- [InvoiceDetail](https://apis.io/schemas/agentaos-ai/agentaos-ai-invoice-detail/)
+- [InvoiceListResponse](https://apis.io/schemas/agentaos-ai/agentaos-ai-invoice-list-response/)
+- [PaymentLink](https://apis.io/schemas/agentaos-ai/agentaos-ai-payment-link/)
+- [PaymentLinkCreateRequest](https://apis.io/schemas/agentaos-ai/agentaos-ai-payment-link-create-request/)
+- [PaymentLinkDetail](https://apis.io/schemas/agentaos-ai/agentaos-ai-payment-link-detail/)
+- [PaymentLinkListResponse](https://apis.io/schemas/agentaos-ai/agentaos-ai-payment-link-list-response/)
+- [PaymentLinkUpdateRequest](https://apis.io/schemas/agentaos-ai/agentaos-ai-payment-link-update-request/)
+- [PlanChangePreview](https://apis.io/schemas/agentaos-ai/agentaos-ai-plan-change-preview/)
+- …and 10 more published on APIs.io
 
 #### JSON-LD (1)
 
@@ -116,16 +147,16 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentaos Ai Authentication](https://apis.io/security/agentaos-ai/agentaos-ai-authentication/)
-- [Agentaos Ai Domain Security](https://apis.io/security/agentaos-ai/agentaos-ai-domain-security/)
-- [Agentaos Ai Trust Center](https://apis.io/security/agentaos-ai/agentaos-ai-trust-center/)
-- [Agentaos Ai Vulnerability Disclosure](https://apis.io/security/agentaos-ai/agentaos-ai-vulnerability-disclosure/)
+- [AgentaOS Authentication](https://apis.io/security/agentaos-ai/agentaos-ai-authentication/)
+- [AgentaOS Domain Security](https://apis.io/security/agentaos-ai/agentaos-ai-domain-security/)
+- [AgentaOS Trust Center](https://apis.io/security/agentaos-ai/agentaos-ai-trust-center/)
+- [AgentaOS Vulnerability Disclosure](https://apis.io/security/agentaos-ai/agentaos-ai-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Agentaos Ai Plans Pricing](https://apis.io/plans/agentaos-ai/agentaos-ai-plans-pricing/)
+- [AgentaOS Plans Pricing](https://apis.io/plans/agentaos-ai/agentaos-ai-plans-pricing/)
 
 ## Where to find this API
 
@@ -144,42 +175,46 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 62.2** — strong · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 57.8** — strong · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 57.1 |
-| Contract quality | 65.8 |
-| Contract governance | 79.1 |
-| Operational transparency | 34.2 |
-| Developer ergonomics | 46.9 |
-| Access clarity | 75.8 |
+| Discoverability | 64.3 |
+| Contract quality | 74.9 |
+| Contract governance | 22.0 |
+| Operational transparency | 31.0 |
+| Developer ergonomics | 42.3 |
+| Access clarity | 83.0 |
 
-**Agent readiness 69.9** — agent-native
+**Agent readiness 41.8** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
-| Auth Clarity | served (partial credit) |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
 | Idempotency | verified |
 | Error Semantics | verified |
 | OpenAPI Examples | verified |
 | Rate Limit Signal | — |
-| Event Surface Described | unknown |
-| Agent Skills | unknown |
-| Well Known Catalog | yes |
+| Event Surface Described | yes |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | flavored (partial credit) |
 | Dry Run Mode | — |
-| Delegated Identity | served (partial credit) |
-| Protected Resource Metadata | verified |
-| Dynamic Client Registration | yes |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
 | Agentic Commerce | — |
 | Pagination Ratio | partial |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 30.0** — Payments
 
